@@ -7,7 +7,7 @@ if(num2 % 3 == 0){
     console.log("Divisible by 3");
     num2 = num2 / 2;   
 }
-else if(num2 % 5 == 0){
+if(num2 % 5 == 0){
     console.log("Divisible by 5");
     num2 = num2 * 7;
 }
